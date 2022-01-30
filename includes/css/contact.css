@@ -1,0 +1,150 @@
+.intro-text {
+    top: 35%;
+    transform: translateY(-25%);
+    width: 100%;
+    padding: 3rem 3rem;
+}
+
+.footer {
+    position: relative;
+    margin: 3rem 0;
+    padding: 0;
+}
+
+.footer .container {
+    height: 100%;
+    width: 100%;
+}
+
+.contact-apis {
+    margin: 0;
+    padding: 0;
+}
+
+.sm-link {
+    font-size: 2rem;
+}
+
+.footer p {
+    display: none;
+}
+
+/* Contact Form */
+.contact {
+    margin-top: 12.5vh;
+    height: 87.5vh;
+}
+
+.contact .title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.contact-form {
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.input-group label {
+    font-weight: bold;
+    margin-bottom: .75rem;
+}
+
+.input {
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.form-btn {
+    align-self: flex-start;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    border: none;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.5);
+    background: var(--dark-color);
+    color: #fff;
+    font-weight: bold;
+}
+
+.form-btn:active {
+    box-shadow: none;
+    transform: translateY(.3rem);
+}
+
+@media screen and (orientation: landscape) {
+    .intro-text {
+        top: 30%;
+        transform: translateY(-25%);
+    }
+
+    .footer {
+        margin: 0 !important;
+    }
+
+    .contact-apis {
+        flex-direction: row;
+        align-items: flex-start;
+        margin: 0;
+        width: 100%;
+    }
+
+    .api-btn {
+        margin-bottom: 0;
+    }
+
+    .api-btn:first-child {
+        margin-right: 3rem;
+    }
+    
+    .api-link {
+        height: 2rem;
+        padding: 2rem;
+        font-size: 1.25rem;
+    }
+
+    .social-media {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (orientation: portrait) {
+    .footer {
+        margin-top: 10rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (orientation: landscape) {
+    .footer {
+        margin-top: 5rem !important;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .api-link {
+        padding: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .social-media {
+        margin-top: 3rem;
+    }
+
+    .sm-link {
+        font-size: 3rem;
+    }
+}

@@ -1,0 +1,51 @@
+.footer {
+    position: relative;
+    margin: 1rem 0 2rem 0;
+    padding-top: 12.5vh;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-apis {    
+    height: 5rem;
+    margin-top: -2.5rem;
+    padding: 0 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.api-btn {
+    position: relative;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.api-link {
+    border: 1px solid var(--smooth-line);
+    box-shadow: rgba(10, 10, 10, 0.25) 0px 6px 12.5px 0px;
+    height: 4rem;
+    border-radius: 20px;
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    z-index: 0;
+}
+
+.social-media {
+    margin: 3rem 0 1rem 0;
+}
+
+.sm-link {
+    margin: 1rem;
+    font-size: 3rem;
+}

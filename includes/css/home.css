@@ -1,0 +1,155 @@
+.intro {
+    position: relative;
+    height: 88vh;
+}
+
+.intro-text {
+    top: 25%;
+    transform: translateY(-25%);
+    width: 100%;
+    padding: 0 3rem;
+}
+
+.intro-title {
+    font-size: 2.5rem !important;
+}
+
+.intro-title:nth-child(2) {
+    color: #ffb700;
+}
+
+.intro-text p {
+    font-size: 1.75rem;
+}
+
+.footer {
+    position: relative;
+    margin: 3rem 0;
+    padding: 0;
+}
+
+.footer .container {
+    height: 100%;
+    width: 100%;
+}
+
+.contact-apis {
+    margin: 0;
+    padding: 0;
+}
+
+.sm-link {
+    font-size: 2rem;
+}
+
+.footer p {
+    display: none;
+}
+
+@media screen and (orientation: landscape) {
+    .intro-text {
+        top: 25%;
+        transform: translateY(-25%);
+    }
+
+    .intro-title {
+        font-size: 2.5rem !important;
+    }
+    
+    .intro-text p {
+        font-size: 1.5rem;
+    }
+
+    .footer {
+        margin: 0 !important;
+    }
+
+    .contact-apis {
+        flex-direction: row;
+        align-items: flex-start;
+        margin: 0;
+        width: 100%;
+    }
+
+    .api-btn {
+        margin-bottom: 0;
+    }
+
+    .api-btn:first-child {
+        margin-right: 3rem;
+    }
+    
+    .api-link {
+        height: 2rem;
+        padding: 2rem;
+        font-size: 1.25rem;
+    }
+
+    .social-media {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (orientation: portrait) {
+    .intro-title {
+        font-size: 5rem !important;
+    }
+    
+    .footer {
+        margin-top: 10rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (orientation: landscape) {
+    .footer {
+        margin-top: 5rem !important;
+    }
+}
+
+@media screen and (min-width: 1000px) and (orientation: portrait) {
+    .intro-title {
+        font-size: 6rem !important;
+    }
+    
+    .intro-text p {
+        font-size: 4rem !important;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .intro-title {
+        font-size: 6rem !important;
+    }
+    
+    .intro-text p {
+        font-size: 2.5rem !important;
+    }
+
+    .api-link {
+        padding: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .social-media {
+        margin-top: 3rem;
+    }
+
+    .sm-link {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .intro-img {
+        opacity: .7;
+    }
+
+    .intro-text {
+        width: 65%;
+        padding: 3rem 5rem !important;
+    }
+
+    .contact-apis {
+        width: 100% !important;
+    }
+}

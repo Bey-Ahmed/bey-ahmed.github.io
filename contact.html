@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="./includes/css/nav.css">
+    <link rel="stylesheet" href="./includes/css/main.css">
+    <link rel="stylesheet" href="./includes/css/footer.css">
+    <link rel="stylesheet" href="./includes/css/contact.css">
+    <link rel="stylesheet" href="./includes/css/media.css">
+    <title>Fly Agency CG</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="hamburger-menu">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link">L'Agence</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./competences.html" class="nav-link">Savoir-Faire</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./realisations.html" class="nav-link">Réalisations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./collab.html" class="nav-link">Ya Joe Collab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./contact.html" class="nav-link">Contactez-Nous</a>
+                    </li>
+                </ul>
+
+                <a href="./index.html" class="nav-logo">
+                    <img src="./includes/images/49b7690a-e08f-4521-8b07-8744df9b4456_rwc_183x0x883x747x4096.png" alt="Fly Agency CG logo" class="nav-logo-image">
+                </a>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="intro" id="intro">
+        <div class="container">
+            <picture>
+                <source srcset="./includes/images/back_contact_wide.jpg" media="(min-width: 1000px)">
+                <source srcset="./includes/images/back_contact_medium.jpg" media="(min-width: 768px)">
+                <img src="./includes/images/back_contact_small.jpg" alt="" class="intro-img">
+            </picture>
+
+            <div class="intro-text fade-away">
+                <h1 class="intro-title ">Notre équipe à l'écoute</h1>
+                <p>
+                    Prenez contact avec nous, nous sommes à l'écoute.
+                </p>
+
+                <section class="footer">
+                    <div class="container">    
+                        <div class="contact-apis">
+                            <div class="api-btn">
+                                <a href="https://g.page/r/CZpquVgND7NCEAo/review" target="_blank" class="api-link">Donnez-nous votre avis</a>
+                            </div>
+                            
+                            <div class="api-btn">
+                                <a href="https://wa.me/message/FKJ2IBZTRKWQG1" target="_blank" class="api-link">Votre devis sur Whatsapp</a>
+                            </div>
+                        </div>
+
+                        <div class="social-media">
+                            <a href="https://www.behance.net/flyagencycg" target="_blank" class="sm-link"><i class="fab fa-behance"></i></a>
+                            <a href="https://www.linkedin.com/company/75061833" target="_blank" class="sm-link"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="http://Facebook.com/flyagencycg" target="_blank" class="sm-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="http://instagram.com/flyagencycg" target="_blank" class="sm-link"><i class="fab fa-instagram"></i></a>
+                            <a href="mailto:contact@flyagency-cg.com" class="sm-link"><i class="fas fa-envelope"></i></a>
+                        </div>
+
+                        <p>
+                            &#169; Fly Agency CG
+                        </p>
+                    </div>
+                </section>
+            </div>
+
+            <a href="#content" class="scroll-down fade-away">
+                <div class="arrow">
+                    <span></span>
+                </div>
+                <div class="arrow">
+                    <span></span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="content" id="content">
+        <a href="#intro">
+            <i class="fas fa-chevron-circle-up"></i>
+        </a>
+
+        <section class="contact">
+            <div class="container">
+                <h2 class="title">Contactez-nous</h2>
+                <form class="form contact-form" action="" method="POST">
+                    <div class="input-group-wrap">
+                        <div class="input-group">
+                            <label for="name">Name *</label>
+                            <input type="text" name="name" class="input" placeholder="Your Name ...">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="email">Email Adress *</label>
+                            <input type="email" name="email" class="input" placeholder="Your E-mail Address ..." required>
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="message">Message *</label>
+                            <textarea class="input" name="message" cols="30" rows="8" placeholder="Your Message ..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" name="submit" class="form-btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </section>
+
+    <script src="./includes/js/main.js"></script>
+</body>
+</html> 
